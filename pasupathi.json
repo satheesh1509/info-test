@@ -1,0 +1,211 @@
+[
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "EmployeeCode",
+        "column_datatype": "VARCHAR",
+        "column_description": "Employee code, code, primary key, unique"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "EmployeeName",
+        "column_datatype": "VARCHAR",
+        "column_description": "Employee Name, name"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "DepartmentName",
+        "column_datatype": "VARCHAR",
+        "column_description": "Department Name"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "DesignationName",
+        "column_datatype": "VARCHAR",
+        "column_description": "Designation Name, job title, role"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "SectionName",
+        "column_datatype": "VARCHAR",
+        "column_description": "Section Name"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "EmploymentWorkPass",
+        "column_datatype": "INTEGER",
+        "column_description": "Employment work pass (SINGAPOREAN, EMPLOYMENT PASS, WORK PERMIT)"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "HolidayGroup",
+        "column_datatype": "VARCHAR",
+        "column_description": "Holiday Group"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "Nationality",
+        "column_datatype": "VARCHAR",
+        "column_description": "Nationality"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "Religion",
+        "column_datatype": "VARCHAR",
+        "column_description": "Religion"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "Race",
+        "column_datatype": "VARCHAR",
+        "column_description": "Race"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "IDType",
+        "column_datatype": "INTEGER",
+        "column_description": "type (NRIC, FIN, Immigration file ref)"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "EmployeeCategory",
+        "column_datatype": "VARCHAR",
+        "column_description": "Employee category"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "JoiningDate",
+        "column_datatype": "DATETIME",
+        "column_description": "Joining date, used for probation calculation"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "EmailID",
+        "column_datatype": "VARCHAR",
+        "column_description": "EmailID"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "PhoneNumber",
+        "column_datatype": "VARCHAR",
+        "column_description": "Phone number"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "LeaveGroup",
+        "column_datatype": "VARCHAR",
+        "column_description": "Leave group"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "ResignedDate",
+        "column_datatype": "DATETIME",
+        "column_description": "Resigned date, Attrition, termination"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "DateOfBirth",
+        "column_datatype": "DATETIME",
+        "column_description": "Date of birth"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "BirthLocation",
+        "column_datatype": "VARCHAR",
+        "column_description": "Birth location (place of birth)"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "EmployeeAddress",
+        "column_datatype": "VARCHAR",
+        "column_description": "Employee address, contains employee residing location. Postal Code"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "MaritalStatus",
+        "column_datatype": "VARCHAR",
+        "column_description": "Marital status (DIVORCED, MARRIED, NOT REPORTED, SEPARATE)"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "Gender",
+        "column_datatype": "VARCHAR",
+        "column_description": "Gender (MALE, FEMALE)"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "BloodGroup",
+        "column_datatype": "VARCHAR",
+        "column_description": "Blood group"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "SpouseName",
+        "column_datatype": "VARCHAR",
+        "column_description": "Spouse name"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "WorkPermit",
+        "column_datatype": "VARCHAR",
+        "column_description": "Work permit (FIN, NRIC, Immigration file ref)"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "CompanyName",
+        "column_datatype": "VARCHAR",
+        "column_description": "CompanyName"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "Status",
+        "column_datatype": "DATETIME",
+        "column_description": "Employment status (ACTIVE, INACTIVE)"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "ConfirmationDate",
+        "column_datatype": "VARCHAR",
+        "column_description": "Confirmation date, next day after probation completes"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "IsPartTimeEmployee",
+        "column_datatype": "INTEGER",
+        "column_description": "[1 - yes, 0 - no]"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "IsFlexiHoursEmployee",
+        "column_datatype": "INTEGER",
+        "column_description": "[1 - yes, 0 - no]"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "IsEmployeeBlocked",
+        "column_datatype": "INTEGER",
+        "column_description": "[1 - yes, 0 - no]"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "EmergencyContactPersonName",
+        "column_datatype": "VARCHAR",
+        "column_description": "emergency contact person name"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "EmergencyContactPersonRelation",
+        "column_datatype": "VARCHAR",
+        "column_description": "emergency contact person relation to employee"
+    },
+    {
+        "table_name": "EmployeeMasterView",
+        "column_name": "EmergencyPersonContactNumber",
+        "column_datatype": "VARCHAR",
+        "column_description": "emergency contact persons mobile or phone number"
+    },
+    {
+        "table_name": "EmployeeMonthlyPayrollView",
+        "column_name": "EmployeeCode",
+        "column_datatype": "VARCHAR",
+        "column_description": "Employee code, foreign key referencing EmployeeMasterView(EmployeeCode)"
+    }]
